@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     paddingBottom:50
   },
   blackItem:{
-    backgroundColor:'rgba(222,221,220,0.75)',
+    backgroundColor: 'rgba(222,221,220,0.75)',
     maxWidth:'100%',
     height:150
   }
