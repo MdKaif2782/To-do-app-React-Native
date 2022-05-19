@@ -32,6 +32,7 @@ const App: () => Node = () => {
     setTaskItems([...taskItems,task])
     console.log(task)
     setTask(null)
+    keyboard.clear();
     keyboard.dismiss();
     console.log('your mom added a task to fuck me')
   }
@@ -83,7 +84,7 @@ const App: () => Node = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'rgba(222,221,220,0.75)',
+    backgroundColor: '#e8e8e8',
   },
   title:{
     fontSize: 29,
@@ -137,7 +138,7 @@ const styles = StyleSheet.create({
     paddingBottom:50
   },
   blackItem:{
-    backgroundColor: 'rgba(222,221,220,0.75)',
+    backgroundColor: '#e8e8e8',
     maxWidth:'100%',
     height:150
   }
